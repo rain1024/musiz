@@ -1,3 +1,9 @@
+import sys
+from pathlib import Path
+
+# Add parent directory to path to import from src
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
 from src.musicxml import MusicXML
 from src.abc_notation import ABCNotation
 
