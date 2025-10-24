@@ -1,6 +1,6 @@
 import pytest
 from src.abc_notation import ABCNotation
-from src.music import transpose
+from src.transformations import transpose
 
 
 @pytest.fixture
